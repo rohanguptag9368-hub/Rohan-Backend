@@ -4,9 +4,9 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 
-const authRoutes = require("./routes/authRoutes");
+const authRoutes = require("./routes/authRoutes.js");
 const productRoutes = require("./routes/productRoutes");
-const adminRoutes = require("./routes/adminRoutes");
+const adminRoutes = require("./routes/adminRoutes.js");
 const orderRoutes = require("./routes/orderRoutes");
 
 const app = express();
